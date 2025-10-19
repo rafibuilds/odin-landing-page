@@ -11,3 +11,9 @@ body {
 .footer {
     background: #1f2937;
 }
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
