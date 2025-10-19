@@ -3,7 +3,8 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    margin: 0;
 }
 
 .header-hero,
