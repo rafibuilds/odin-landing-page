@@ -61,3 +61,15 @@ p.hero-second {
     gap: 10px;
     align-items: flex-start;
 }
+
+button.sign-up {
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-text button.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+}
