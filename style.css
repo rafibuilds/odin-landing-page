@@ -46,7 +46,10 @@ p.hero-second {
     gap: 25px;
 }
 
-.header-container {
+.header-container,
+.hero-container {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    align-items: center;
 }
