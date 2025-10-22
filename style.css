@@ -24,6 +24,13 @@ ul {
     font-size: 18px;
 }
 
+.header-container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
 .header-container {
     display: flex;
+    justify-content: space-between;
 }
