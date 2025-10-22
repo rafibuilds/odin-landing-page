@@ -56,11 +56,22 @@ p.hero-second {
 }
 
 .hero-text {
-    max-width: 55%;
+    max-width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 10px;
     align-items: flex-start;
+}
+
+.hero-image {
+    max-width: 40%;
+    align-self: stretch;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
 }
 
 button.sign-up {
