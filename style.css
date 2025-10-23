@@ -17,6 +17,10 @@ div.quote-container {
     background-color: #e5e7eb;
 }
 
+div.quote-box {
+    margin: 50px 250px;
+}
+
 div.quote-box p.quote-text {
     font-size: 36px;
     font-weight: 300;
