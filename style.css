@@ -25,6 +25,7 @@ div.quote-box p.quote-text {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    font-style: italic;
 }
 
 div.info-container p.info-text {
