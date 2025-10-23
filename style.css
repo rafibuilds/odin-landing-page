@@ -22,6 +22,7 @@ ul {
 p.logo {
     font-size: 24px;
     color: #f9faf8;
+    align-self: center;
 }
 
 p.hero-main {
@@ -35,6 +36,14 @@ p.hero-second {
     font-size: 18px;
 }
 
+.header-container,
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: stretch;
+}
+
 .header-container a {
     text-decoration: none;
     color: #e5e7eb;
@@ -45,14 +54,7 @@ p.hero-second {
     list-style-type: none;
     display: flex;
     gap: 25px;
-}
-
-.header-container,
-.hero-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: stretch;
+    align-self: center;
 }
 
 .hero-text {
