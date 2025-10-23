@@ -113,8 +113,17 @@ button.sign-up {
     border: none;
 }
 
+
+
 .sign-up-box button.sign-up {
     background-color: #3882f6;
     color: white;
     border: 1px solid white;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px 50px;
+    color: white;
+    font-size: 10px;
 }
