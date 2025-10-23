@@ -113,7 +113,29 @@ button.sign-up {
     border: none;
 }
 
+div.sign-up-box {
+    margin: 50px 350px;
+    background-color: #3883f6;
+    border-radius: 5px;
+    padding: 35px 50px;
+    display: flex;
+    flex-wrap: wrap;;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 10px;
+}
 
+div.sign-up-text .sign-up-text1 {
+    color: white;
+    font-size: 20px;
+}
+
+div.sign-up-text .sign-up-text2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
 
 .sign-up-box button.sign-up {
     background-color: #3882f6;
