@@ -138,7 +138,8 @@ button.sign-up {
 }
 
 div.sign-up-box {
-    margin: 50px 350px;
+    margin: 50px auto;
+    max-width: 50%;
     background-color: #3883f6;
     border-radius: 5px;
     padding: 35px 50px;
