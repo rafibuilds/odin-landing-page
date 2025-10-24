@@ -33,7 +33,7 @@ div.quote-box p.quote-author {
     font-weight: 500;
 }
 
-div.info-container p.info-text {
+div.info-container p.info-title-text {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -99,6 +99,30 @@ p.logo {
 .hero-image img {
     width: 100%;
     height: 100%;
+}
+
+div.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    text-align: center;
+}
+
+div.info-image-container {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+div.info-image-text {
+    max-width: 200px;
+}
+
+div.info-image-text img {
+    width: 100%;
+    height: auto;
 }
 
 button.sign-up {
