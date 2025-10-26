@@ -13,6 +13,12 @@ ul {
     padding: 0;
 }
 
+button.sign-up {
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 /* Header-hero section */
 .header-hero,
@@ -66,6 +72,12 @@ p.logo {
     justify-content: center;
     gap: 15px;
     align-items: flex-start;
+}
+
+.hero-text button.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: none;
 }
 
 .hero-image {
@@ -145,18 +157,6 @@ div.quote-box p.quote-author {
 
 
 /* Sign-up section */
-button.sign-up {
-    padding: 5px 25px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.hero-text button.sign-up {
-    background-color: #3882f6;
-    color: white;
-    border: none;
-}
-
 div.sign-up-box {
     margin: 50px auto;
     max-width: 50%;
