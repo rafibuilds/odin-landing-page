@@ -7,42 +7,18 @@ body {
     margin: 0;
 }
 
-.header-hero,
-.footer {
-    background: #1f2937;
-    padding: 0px 50px;
-}
-
-div.quote-container {
-    background-color: #e5e7eb;
-}
-
-div.quote-box {
-    margin: 50px 250px;
-}
-
-div.quote-box p.quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    color: #1f2937;
-    font-style: italic;
-}
-
-div.quote-box p.quote-author {
-    text-align: right;
-    font-weight: 500;
-}
-
-div.info-container p.info-title-text {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-}
-
 p,
 ul {
     margin: 0;
     padding: 0;
+}
+
+
+/* Header-hero section */
+.header-hero,
+.footer {
+    background: #1f2937;
+    padding: 0px 50px;
 }
 
 p.hero-main {
@@ -101,6 +77,14 @@ p.logo {
     height: 100%;
 }
 
+
+/* Information section */
+div.info-container p.info-title-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 div.info-container {
     display: flex;
     flex-direction: column;
@@ -137,6 +121,30 @@ div.info-image-text p.info-text {
     text-align: center;
 }
 
+
+/* Quote section */
+div.quote-container {
+    background-color: #e5e7eb;
+}
+
+div.quote-box {
+    margin: 50px 250px;
+}
+
+div.quote-box p.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+div.quote-box p.quote-author {
+    text-align: right;
+    font-weight: 500;
+}
+
+
+/* Sign-up section */
 button.sign-up {
     padding: 5px 25px;
     border-radius: 10px;
@@ -180,6 +188,8 @@ div.sign-up-text .sign-up-text2 {
     border: 1px solid white;
 }
 
+
+/* Footer section */
 .footer {
     text-align: center;
     padding: 25px 50px;
