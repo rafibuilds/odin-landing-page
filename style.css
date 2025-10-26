@@ -114,15 +114,27 @@ div.info-image-container {
     display: flex;
     gap: 52px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.info-image-text {
-    max-width: 200px;
+    flex: 0 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 div.info-image-text img {
     width: 100%;
-    height: auto;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+
+}
+
+div.info-image-text p.info-text {
+    text-align: center;
 }
 
 button.sign-up {
